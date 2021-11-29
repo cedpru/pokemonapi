@@ -12,7 +12,7 @@ Affiche le pokémon avec l'id 1
 * GET /pokemons/1
 
 Créé une nouveau pokémon avec les paramètres JSON suivants:
-
+```json
 {"number": 1,
 "name": "Bulbasaur",
 "type1": "Grass",
@@ -26,10 +26,12 @@ Créé une nouveau pokémon avec les paramètres JSON suivants:
 "speed": 45,
 "generation": 1,
 "legendary": 0}
-
+```
 * POST /pokemons
 
 Mets à jour l'information du pokémon id: 1 avec les paramètres suivants:
+```json
+{
 "number": 1,
 "name": "Bulbasaur",
 "type1": "Grass",
@@ -43,6 +45,8 @@ Mets à jour l'information du pokémon id: 1 avec les paramètres suivants:
 "speed": 45,
 "generation": 1,
 "legendary": 0,
+}
+```
 
 * PATCH/PUT /pokemons/1
 
