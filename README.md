@@ -1,24 +1,13 @@
-# README
+# API DOCUMENTATION
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* GET /pokemons
 
-Things you may want to cover:
+* GET /pokemons/1
 
-* Ruby version
+* POST /pokemons
 
-* System dependencies
+* PATCH/PUT /pokemons/1
 
-* Configuration
+* DELETE /pokemons/1
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+number, name, type1, type2, total, hp, attack, defense, spAtk, spDef, speed, generation, legendary
