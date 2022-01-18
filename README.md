@@ -8,7 +8,7 @@ Liste de tous les pokémons
 Liste de tous les pokémons par page de 15
 * GET /pokemons?page=1 
 
-Affiche le pokémon avec l'id 1
+Affiche le pokémon avec l'id 1 (ou preciser l'id)
 * GET /pokemons/1
 
 Créé une nouveau pokémon avec les paramètres JSON suivants:
